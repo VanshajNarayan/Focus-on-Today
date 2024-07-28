@@ -1,0 +1,55 @@
+.form_field{
+  max-width: 26.1rem;
+  width: 100%;
+  padding: 1.5rem 2rem;
+  border: 1px solid #fff;
+  border-radius: 0.92rem;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.checkBox{
+  position: absolute;
+  left: 4%;
+  width: 24px;
+  height: 24px;
+  border-radius: 20px;
+  border: 2px solid rgba(97, 72, 28, 0.3);
+}
+
+.clicked_checkbox{
+  background: rgba(72, 163, 0, 1);
+}
+
+.click_sign{
+  color: rgba(246, 246, 246, 1);
+  position: absolute;
+  top: 15%;
+  left: 15%;
+}
+
+.text{
+  outline: none;
+  background: none;
+  border: none;
+  margin-left: 1rem;
+  max-width: 100%;
+  width: 100%;
+}
+
+.text::placeholder{
+  color: rgb(162, 157, 157);
+  font-size: 0.7rem;
+  line-height: 1.1rem;
+  font-weight: 500;
+  margin-left: 2rem;
+}
+
+.text_green{
+  color: rgba(72, 163, 0, 1);
+  text-decoration: line-through;
+}

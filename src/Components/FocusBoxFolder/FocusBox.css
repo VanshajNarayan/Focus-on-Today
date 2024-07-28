@@ -1,0 +1,42 @@
+.focus_box{
+  max-width: 65.5rem;
+  width: 100%;
+  background: rgba(72, 163, 0, 0.07);
+  padding: 1rem 3rem;
+  margin: auto;
+}
+
+.focus_title{
+  font-size: 2.91rem;
+  font-weight: 700;
+  text-align: center;
+  line-height: 4.2rem;
+  color: rgba(72, 163, 0, 1);
+  margin-bottom: 1.5rem;
+}
+
+.today{
+  font-size: 2.91rem;
+  font-weight: 700;
+  text-align: center;
+  line-height: 4.2rem;
+  color: rgba(0, 0, 0, 1);
+}
+
+@media(max-width : 645px){
+  .focus_title{
+    font-size: 2rem;
+  }
+  .today{
+    font-size: 2rem;
+  }
+}
+
+@media(max-width : 485px){
+  .focus_title{
+    font-size: 1.6rem;
+  }
+  .today{
+    font-size: 1.6rem;
+  }
+}
